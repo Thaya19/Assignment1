@@ -1,0 +1,13 @@
+CREATE TABLE `db1`.`student` (
+  `id` INT NOT NULL,
+  `name` VARCHAR(45) NOT NULL,
+  `department` VARCHAR(45) NOT NULL,
+  PRIMARY KEY (`id`));
+  
+insert into student values (100000,"John","Software Engineering");
+insert into student values (100001,"Peter","Multimedia");
+insert into student values (100002,"Tony","Computer System");
+insert into student values (100003,"Mark","Computer Network");
+insert into student values (100004,"Steve","Software Engineering");
+insert into student values (100005,"Mike","Multimedia");
+insert into student values (100006,"Bruce","Computer System");
